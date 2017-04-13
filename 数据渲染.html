@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VUE</title>
+</head>
+<body>
+  <div id="app" v-bind:title="message" v-if="0 == 0">
+    <p>第一步：{{message}}:v-bind,v-if,{{}}</p>
+    <p>第二步：事件绑定：v-on</p>
+    <div v-on:click="reverse">逆转第一步消息</div>
+    <p>第三步：双向数据绑定 v-model</p>
+    <input v-model="message">
+  </div>
+  <p>第四步：数组循环渲染 V-FOR</p>
+  <div class="app4" ><div v-for="to in todos">{{to.text}}</div></div>
+  <p>第五步：组件构建</p>
+  
+  </body>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script src="js/main.js"></script>
+</html>

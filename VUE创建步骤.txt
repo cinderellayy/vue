@@ -1,0 +1,6 @@
+1、安装node
+2、安装vue.js环境:：cnpm install -g vue-cli
+3、测试vue的安装：vue
+4、vue.js项目的建立
+     新建一个名为pt的vue项目：在F盘创建一个名为pt的文件夹：执行：cd f:\ vue init webpack pt
+5、vue项目的启动步骤：（1）cd pt （2）npm install （3）npm run dev
